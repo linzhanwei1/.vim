@@ -66,7 +66,7 @@ autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
 set tags=tags;
 "set autochdir
 
-"==================== ctags  ===================
+"==================== Tagbar  ===================
 let g:tagbar_ctags_bin='ctags'
 let g:tagbar_width=25
 nmap <C-b> :TagbarToggle<CR>
